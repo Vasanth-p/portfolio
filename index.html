@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>yourname.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Vasanth P</h1>
+        <h2>Software Developer / Web Page creator / UI/UX designer</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://github.com/Vasanth-p"><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://twitter.com/vasanth_p_06"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://www.instagram.com/p_vasanth_06/"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="https://www.linkedin.com/in/vasanth-p-5333a8284/"><i class="fab fa-linkedin"></i></a></td>
+                </tr>
+
+        </table>
+        <div id="cv-button">
+            <a href="./img/21cse062.pdf" download>
+                <button class="btn_one">Download CV</button>
+            </a>
+        </div>
+    </div>
+    
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>Profession</h1>
+        <section>
+            <h2>Currently being a <span class="color">College Studend</span></h2>
+            <p>    
+                <b>Passionate Java Enthusiast:</b><br><br> A dedicated learner who successfully completed the <span class="color">Java course on NPTEL</span>, showcasing a strong grasp of fundamental programming concepts and object-oriented principles.        
+                <br><br><b>Web Development Maven:</b> <br><br> Acquired hands-on experience in web development during a rewarding <span class="color">internship at Kevell Corp</span>, mastering HTML, CSS, JavaScript, and React to create dynamic and user-friendly web applications.
+                <br><br><b>Web Page Wizard:</b> <br><br>Proudly designed and <span class="color">developed captivating web pages</span>, such as Delify, demonstrating a keen eye for aesthetics and a commitment to delivering visually appealing and engaging user experiences.
+                </p>
+                <p><div id="used">
+                    <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                </div></p>
+                <p>
+                <br><b>Portfolio Powerhouse:</b><br><br> <span class="color">Check out my impressive projects</span> and web development skills on GitHub: <span class="color"></span><a href="https://github.com/Vasanth-p" ></a> - Featuring a diverse range of innovative projects that showcase problem-solving abilities and creativity.
+                <br><br><b><span class="color">I have Posted my projects in my Gitupu:</span></b><a href="https://github.com/Vasanth-p" >&nbsp;<span class="color">GitHub Link</span></a>
+            </p>
+
+            <h2>MY WORK</h2>
+            <div class="grid">
+                <div class="right"><img class="img1" src="./img/sidebar.png" alt=""></div>
+                <div class="left"><img class="img1"src="./img/musicapp.png" alt=""></div> 
+                <div><img img class="img1" src="./img/hoc.png" alt=""></div>
+                <div><img img class="img1" src="./img/ecommerce.png" alt=""></div>
+            </div>
+            <div class="grid1">
+                <div onclick="closework()"><button class="btn_one">Back To</button></div>
+                <div onclick="showabout()" ><button class="btn_two">About </button></div>
+                <div id="cv-button">
+                    <a href="./img/21cse062.pdf" download>
+                        <button class="btn_one">Download CV</button>
+                    </a>
+                </div>
+            </div>
+            
+            
+            
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+
+            <div class="profile1">
+                <img  class="profile" src="./img/profile.png" alt="">
+            </div><br>
+            <div class="profilecontent1">
+                <p class="profilecontent">
+                <span class="color">Name:</span>:Vasanth P<br>
+                <span class="color">Age</span> :19 <br>
+                <span class="color">Address</span> :Madurai,Tamil Nadu  <br>
+                <span class="color">Profession</span> :Currently a college Student <br>
+                <span class="color">Contact No</span> :8524000761. <br>
+            </p>
+            </div>
+            
+            <h1>about.</h1>
+         
+            <section>
+                <h2>about me</h2>
+                
+                <p>
+                "I am a Computer Science student at Velammal College of Engineering and Technology in Viraganoor, Madurai. Right now, I'm in my 5th semester, and I love learning about technology."<br><br>
+                 I am passionate about creating attractive web pages, and I have a keen interest in learning new things related to web development."<br><br>             
+                 "I'm eager to dive into app creation and bring my ideas to life. Excited to explore the world of app development!"
+                </p>
+                <p>
+                    
+                </p>
+            </section>
+            <section>
+                <h1>skills</h1>
+                    <p>
+                        <b>Programming Languages:</b><br><br> Proficiency in multiple programming languages, such as Python, Java, JavaScript, C#, C++, or others, depending on your area of expertise.
+
+                    <br><br><b>Web Development:</b><br><br> Knowledge of front-end technologies (HTML, CSS, JavaScript) and frameworks (React, Angular, Vue.js) for creating interactive and responsive web applications.
+
+                    <br><br><b>Mobile App Development:</b><br><br> Experience in building native or cross-platform mobile applications using platforms like Android Studio, Kotlin, Swift, or React Native.
+
+                    <br><br><b>Database Management:</b><br><br> Understanding of database systems (SQL, NoSQL) and their integration into applications.
+
+                    <br><br><b>Version Control:</b><br><br> Familiarity with version control systems like Git to manage code repositories collaboratively.
+
+                    <br><br><b>UI/UX Design:</b><br><br> Basic understanding of user interface and user experience design principles for creating user-friendly applications.
+
+
+                    <br><br><b>Communication and Teamwork:</b><br><br> Excellent communication skills to collaborate effectively with team members and stakeholders.
+                    </p>
+                    <br>
+                    <div class="links">
+                    <p class="profilecontent1">
+                        <span class="color">GitHub</span><a class="small" href="https://github.com/Vasanth-p" >:https://github.com/Vasanth-p</a><br><br>
+                        <span class="color">linkedIn</span><a class="small" href="https://www.linkedin.com/in/vasanth-p-5333a8284/" >:https://www.linkedin.com/in/vasanth-p-5333a8284/</a><br><br>
+                        <span class="color">Instagram</span><a class="small" href=" https://www.instagram.com/p_vasanth_06/" >: https://www.instagram.com/p_vasanth_06/</a> <br><br>
+                        <span class="color">Twitter</span> <a class="small" href="https://twitter.com/vasanth_p_06" >:https://twitter.com/vasanth_p_06</a> <br><br>
+                        <span class="color">Contact No</span><a  onclick="showcontact()">:Click Me</a> <br>
+                        
+                    </p>
+                </div>
+<div class="grid3">
+                <div onclick="closeabout()"><button class="btn_one">Back To</button></div> 
+                <div id="cv-button">
+                    <a href="./img/21cse062.pdf" download>
+                        <button class="btn_one">Download CV</button>
+                    </a>
+                </div>
+            </div>
+                
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+                <p>
+                    <form>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            Made by  Mr.vasanth <br> <a href="https://github.com/Vasanth-p">Vasanth P</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
